@@ -40,7 +40,7 @@
 	  	<suite name="Loan Department" parallel="tests" thread-count="5">
 	  	<test name="Loan Department" parallel="classes" thread-count="5"> 
 	  	
-	  	check resultusing  > refresh Project  > find index html and coyp into broswer
+	  	TestNG : check result using  > refresh Project  > test-output- > find index html and coyp into broswer
 	  	 	     
    -->
 

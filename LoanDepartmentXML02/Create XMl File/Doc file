@@ -1,0 +1,16 @@
+//Improtant of xml file to run multiple test case  
+  1.Create Xml  file : RightClick > TestNg > Convert To Test NG
+  2. To exectue test suite
+     Right click on xml  file > Run as  > TestNG Suite
+  3. Include and excludefro specific requirement in excel file
+
+
+ // HOw To Run tests testing ?
+ 
+   You need to have @Test annotation followed by method 
+ 
+   you can define multiple tests from single class
+ 
+   you can modularize the testcases based up on functionality and trigger them accordingly
+ 
+   You can also get a control on running spefice method from test case

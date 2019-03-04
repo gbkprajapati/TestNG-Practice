@@ -3,16 +3,16 @@
 <suite name="Loan Department">
 
 
-	<test name="Data Provider and Helper Attribute">
+	<test name="Helper Attribute">
 		<classes>
 			<class name="LoanDepartmentXML02.HomeLoan"></class>
 		</classes>
 	</test>
-	<!-- Data Provider Annotation : 
+	<!-- 
 		dependsOnMethods : It will depend on other 
 		method enabled = false : if test contain some bug or error 
 		Timeout = if takes too much time -->
-
+    
 
 
 </suite> <!-- Suite -->

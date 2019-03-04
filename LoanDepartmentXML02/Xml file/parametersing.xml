@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department" parallel="tests" thread-count="5">
+	<parameter name="URL" value="www.td.bank"></parameter>
+
+    <!-- Listener use -->
+	<listeners>
+		<listener class-name="listenerExample.ListenerExa"></listener>
+	</listeners>
+
+
+	<test name="Parametereizing">
+	    <parameter name="urlPersonal" value="www.td.bank/PersonalLoan" />
+	    <parameter name="username" value="john"/>
+		<classes>
+			<class name="LoanDepartmentXML02.PersonalLoan"></class>
+		</classes>
+	</test>
+
+  <!--  Global Enviroment level  
+        Two technique : 
+        First Technique : 
+	        keep in mind : Run xml file if we have paramtering
+			Paramtersing is a Suite and test level 
+	  		Use : 1. To pass url 
+	  		      2. To Api key.
+	  		 
+  		Second Technique :       
+  		Data Provider if we have multiple dataset to pass or check 
+  		
+  		3. Itestlistener
+	  		Capture code Screen shot usingItestLister.  		
+	  		When test fail it re root and take screenshot.
+	  	   
+	  	   ITestResult : which test are fail or success.
+	  	  
+	  	  
+	  	4.  Parallel Test : 
+	  	Api level is fine but not fine appium
+	  	<suite name="Loan Department" parallel="tests" thread-count="5">
+	  	<test name="Loan Department" parallel="classes" thread-count="5"> 	     
+   -->
+
+</suite> <!-- Suite -->

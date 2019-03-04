@@ -13,7 +13,7 @@
 		@Before Test / @AfterTest  - Test level Folder
 			- You can define any class file i.e Carloan , Homeloan
 			- use: 1.  clear Data
-			       2.  AptTest Test Case 
+			       2.  ApiTest Test Case 
 			       3.  Appium server code. 
 	   @AfterTest  - Test level Folder
 			- You can define any class file i.e Carloan , Homeloan
@@ -32,9 +32,7 @@
 			- You can define in the class file spefic.e Carloan
 			- use: 1.  Delete Cookies
 			       2.  API automatic server connection
-			       3.  key for URL	   
-			       
-			           
+			       3.  key for URL	
  	
 	 -->
 	 

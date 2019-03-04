@@ -2,22 +2,24 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Loan Department">
 
-   <!--Client then we use group conecptlient wants only 4 test case executed 4 out 100  -->
+	<!--Client then we use group conecptlient wants only 4 test case executed 
+		4 out 100 -->
 	<test name="Regression">
-	   <groups>
-	   <run>
-	      <include name="Smoke"></include>
-	   </run>
-	   </groups>
+		<groups>
+			<run>
+				<include name="Smoke"></include>
+			</run>
+		</groups>
+
 		<classes>
 			<class name="LoanDepartmentXML02.CarLoan"></class>
 			<class name="LoanDepartmentXML02.HomeLoan"></class>
 			<class name="LoanDepartmentXML02.PersonalLoan"></class>
 		</classes>
 	</test>
-	
-	
-	
-	
+
+
+
+
 
 </suite> <!-- Suite -->

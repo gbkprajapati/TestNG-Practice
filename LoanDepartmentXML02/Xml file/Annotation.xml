@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+
+
+	<test name="Car and Home Loan">
+		<classes>
+			<class name="LoanDepartmentXML02.CarLoan"></class>
+			<class name="LoanDepartmentXML02.HomeLoan"></class>
+		</classes>
+	</test>
+	<!-- 
+		@Before Test / @AfterTest  - Test level Folder
+			- You can define any class file i.e Carloan , Homeloan
+			- use: 1.  clear Data
+			       2.  AptTest Test Case 
+			       3.  Appium server code. 
+	   @AfterTest  - Test level Folder
+			- You can define any class file i.e Carloan , Homeloan
+			- use: 1.  Delete Cookies 
+			       2.  Create Report 
+			       3.  Close connection in API. 
+			       
+			       
+		@Before Suite / @ After Suite Test  - All Test level Folder
+			- You can define any class file i.e Carloan , Homeloan , Peronal Loan
+			- use: 1.  Different Enivorment
+			       2.  Different URl
+			       3.  key for URL
+		
+		@Before Method / @ After Method Test  - Class Specific   Execuitn Patter:  BE , 1 , BF,2 
+			- You can define in the class file spefic.e Carloan
+			- use: 1.  Delete Cookies
+			       2.  API automatic server connection
+			       3.  key for URL	       
+ 	
+	 -->
+	 
+	 <test name="Personal loan">
+		<classes>
+			<class name="LoanDepartmentXML02.PersonalLoan"></class>
+			
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

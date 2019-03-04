@@ -1,0 +1,12 @@
+//Improtant of xml file to run multiple test case  
+
+// Right click on xml  file > Run as  > TestNG Suite
+
+ // HOw To Run tests testing ?
+ 
+   You need to have @Test annotation followed by method 
+ 
+   you can define multiple tests from single class
+ 
+   you can modularize the testcases based up on functionality and trigger them accordingly
+ 

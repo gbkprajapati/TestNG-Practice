@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+	<test thread-count="5" name="Personal Department">
+		<classes>
+			<class name="LoanDepartmentXML02.PersonalLoan" />
+		</classes>
+	</test> <!-- Test -->
+
+	<!-- Include some test case specifice example -->
+	<test thread-count="5" name="Home Loan">
+		<classes>
+			<class name="LoanDepartmentXML02.HomeLoan">
+				<methods>
+					<include name="WebLoginHomeLoan"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<!-- Exclude some Test case specific example -->
+	<test thread-count="5" name="Car Loan">
+		<classes>
+			<class name="LoanDepartmentXML02.CarLoan">
+				<methods>
+					<exclude name="MobileLoginHomeLoan"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->

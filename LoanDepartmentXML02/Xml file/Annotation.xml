@@ -28,11 +28,13 @@
 			       2.  Different URl
 			       3.  key for URL
 		
-		@Before Method / @ After Method Test  - Class Specific   Execuitn Patter:  BE , 1 , BF,2 
+		@BeforMethod / @ AfterMethod  / @BeforeClass Test  - Class Specific   Execuitn Patter:  BE , 1 , BF,2 
 			- You can define in the class file spefic.e Carloan
 			- use: 1.  Delete Cookies
 			       2.  API automatic server connection
-			       3.  key for URL	       
+			       3.  key for URL	   
+			       
+			           
  	
 	 -->
 	 

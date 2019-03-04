@@ -1,5 +1,5 @@
 //Improtant of xml file to run multiple test case  
-  1.Create Xml  file : RightClick > TestNg > Convert To Test NG
+  1. Create Xml  file : RightClick > TestNg > Convert To Test NG
   2. To exectue test suite
      Right click on xml  file > Run as  > TestNG Suite
   3. Include and excludefro specific requirement in excel file
@@ -13,4 +13,6 @@
  
    you can modularize the testcases based up on functionality and trigger them accordingly
  
-   You can also get a control on running spefice method from test case
+You can learn more about TestngXML suite structure from below link
+
+http://javarticles.com/2015/02/example-of-testng-configuration-xml-testng-xml.html

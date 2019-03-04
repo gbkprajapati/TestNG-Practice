@@ -38,7 +38,10 @@
 	  	4.  Parallel Test : 
 	  	Api level is fine but not fine appium
 	  	<suite name="Loan Department" parallel="tests" thread-count="5">
-	  	<test name="Loan Department" parallel="classes" thread-count="5"> 	     
+	  	<test name="Loan Department" parallel="classes" thread-count="5"> 
+	  	
+	  	check resultusing  > refresh Project  > find index html and coyp into broswer
+	  	 	     
    -->
 
 </suite> <!-- Suite -->

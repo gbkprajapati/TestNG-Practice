@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven using global parametersing using Java">
+
+	<!-- Data Driven using global parametersing using Java
+		 Use 1: Center place datadriven.properties file) place where we can update username or password 
+		 Use2 : central login information 
+		 Use3 : If client wants chromebroswer instead of firefox broswer or vice verca. -->
+
+
+	<test name="Data Driven Example">
+		<classes>
+			<class name="datadrivenjava.DataDrivenExample"></class>
+		</classes>
+	</test>
+
+
+
+</suite> <!-- Suite -->
